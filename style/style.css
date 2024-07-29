@@ -113,7 +113,7 @@ body {
     font-weight: 600px;
     position: fixed; 
     bottom: 0; 
-    width: 100%;
+    width: flex;
 }
 
 @media (max-width: 1200px) {
