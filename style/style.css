@@ -110,7 +110,10 @@ body {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 600px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -127,7 +130,7 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5;
+        padding: 5%;
     }
 
     .apresentacao__conteudo {
